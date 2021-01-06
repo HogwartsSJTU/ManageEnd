@@ -52,21 +52,21 @@ export default {
         legend: {
           left: 'center',
           bottom: '10',
-          data: ['Industries', 'Technology', 'Forex', 'Gold', 'Forecasts']
+          data: ['美食', '风景', '娱乐', '艺术', '科普']
         },
         series: [
           {
-            name: 'WEEKLY WRITE ARTICLES',
+            name: '当前景点类型所占比例',
             type: 'pie',
             roseType: 'radius',
             radius: [15, 95],
             center: ['50%', '38%'],
             data: [
-              { value: 320, name: 'Industries' },
-              { value: 240, name: 'Technology' },
-              { value: 149, name: 'Forex' },
-              { value: 100, name: 'Gold' },
-              { value: 59, name: 'Forecasts' }
+              { value: 320, name: '美食' },
+              { value: 240, name: '风景' },
+              { value: 149, name: '娱乐' },
+              { value: 100, name: '艺术' },
+              { value: 59, name: '科普' }
             ],
             animationEasing: 'cubicInOut',
             animationDuration: 2600
